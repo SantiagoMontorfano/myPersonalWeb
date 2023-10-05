@@ -1,0 +1,8 @@
+fonts
+color palette
+background image
+layout responsive
+    320 - 767 mobile
+    768 - 1023 tablets
+    1024 - pc
+    
