@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #332B47;
+    --second-color: #4F8CEB;
+    --third-color: #B6B4CA;
+    --fourth-color: #2FABA7;
+    --fifth-color: #FFEBE0;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -15,18 +23,25 @@ html {
 
 .header {
     height: 8%;
+   background-color: lightyellow;
 
 }
 
 .header__h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    color: var(--primary-color);
+    text-shadow: .2rem .2rem .2rem var(--primary-color);
+    letter-spacing: .2rem;
+    margin: .4rem;
 }
 
 .header__h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: end;
-    
+    color: var(--second-color);
+    text-decoration-line: underline;
+  
 }
 
 .figure {
@@ -53,10 +68,11 @@ html {
     justify-content: space-around;
     flex-direction: column;
     padding: 0 4rem;
+    
 }
 
 .main__button {
-    
+      
     
 }
 
